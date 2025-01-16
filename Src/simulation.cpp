@@ -27,7 +27,6 @@ void Simulation::runSimulation() {
     std::vector<std::tuple<double, double, double>> vehiclePositions;
     std::vector<std::tuple<double, double, double>> antennaPositions;
 
-    // Generate positions
     for (int i = 0; i < vehicles; ++i) {
         vehiclePositions.push_back({dis(gen), dis(gen), 0.001}); // 1m height in km
     }
@@ -40,14 +39,12 @@ void Simulation::runSimulation() {
     std::vector<bool> antennaUsed(antennas, false);
     int linkedVehicles = 0;
 
-    // Process each vehicle
     for (int i = 0; i < vehicles; ++i) {
         auto [vx, vy, vz] = vehiclePositions[i];
         double minDistance = maxLinkDistance;
         double bestPathLoss = -1;
         int bestAntennaIndex = -1;
 
-        // Find closest antenna within range
         for (int j = 0; j < antennas; ++j) {
             auto [ax, ay, az] = antennaPositions[j];
             double distance = sqrt(pow(vx - ax, 2) + pow(vy - ay, 2));
@@ -60,7 +57,6 @@ void Simulation::runSimulation() {
             }
         }
 
-        // If vehicle is linked
         if (bestAntennaIndex != -1) {
             linkedVehicles++;
             antennaUsed[bestAntennaIndex] = true;
@@ -69,7 +65,6 @@ void Simulation::runSimulation() {
         }
     }
 
-    // Calculate results
     unlinkedVehicles = vehicles - linkedVehicles;
     unusedAntennas = antennas - std::count(antennaUsed.begin(), antennaUsed.end(), true);
     avgPathLoss = linkedVehicles > 0 ? totalPathLoss / linkedVehicles : 0;
