@@ -1,0 +1,3 @@
+C:/Users/badre/AGH/Methodology finalProject/cmake-build-debug/CMakeFiles/Methodology_finalProject.dir
+C:/Users/badre/AGH/Methodology finalProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/badre/AGH/Methodology finalProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
