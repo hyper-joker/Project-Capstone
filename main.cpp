@@ -4,9 +4,9 @@
 #include <sstream>
 #include <iostream>
 #include <numeric>
-#include "graph.hpp"
-#include "data_handler.hpp"
-#include "simulation.hpp"
+#include "Include/graph.hpp"
+#include "Include/data_handler.hpp"
+#include "Include/simulation.hpp"
 
 int main() {
     const int ITERATIONS = 50;
@@ -32,8 +32,8 @@ int main() {
     std::vector<std::vector<double>> pathLossValuesForGraphs;
 
     // Initialize CSV files
-    std::string avgResultsCsv = "C:\\Users\\badre\\AGH\\Methodology finalProject\\average_results.csv";
-    std::string detailedResultsCsv = "C:\\Users\\badre\\AGH\\Methodology finalProject\\detailed_results.csv";
+    std::string avgResultsCsv = "C:\\Users\\badre\\AGH\\Project-Capstone\\Results\\average_results.csv";
+    std::string detailedResultsCsv = "C:\\Users\\badre\\AGH\\Project-Capstone\\Results\\detailed_results.csv";
 
     // Save headers
     saveCSVHeader(avgResultsCsv);

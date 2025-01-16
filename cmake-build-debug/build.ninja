@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Methodology_finalProject
+# Project: Project-Capstone
 # Configurations: Debug
 # =============================================================================
 
@@ -39,73 +39,73 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/badre/AGH/Methodology$ finalProject/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/badre/AGH/Project-Capstone/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Methodology_finalProject
+# Object build statements for EXECUTABLE target Project-Capstone
 
 
 #############################################
-# Order-only phony target for Methodology_finalProject
+# Order-only phony target for Project-Capstone
 
-build cmake_object_order_depends_target_Methodology_finalProject: phony || CMakeFiles/Methodology_finalProject.dir
+build cmake_object_order_depends_target_Project-Capstone: phony || CMakeFiles/Project-Capstone.dir
 
-build CMakeFiles/Methodology_finalProject.dir/main.cpp.obj: CXX_COMPILER__Methodology_finalProject_unscanned_Debug C$:/Users/badre/AGH/Methodology$ finalProject/main.cpp || cmake_object_order_depends_target_Methodology_finalProject
+build CMakeFiles/Project-Capstone.dir/main.cpp.obj: CXX_COMPILER__Project-Capstone_unscanned_Debug C$:/Users/badre/AGH/Project-Capstone/main.cpp || cmake_object_order_depends_target_Project-Capstone
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\Methodology_finalProject.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\Project-Capstone.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem C:/Users/badre/Desktop/SFML-2.6.1/include
-  OBJECT_DIR = CMakeFiles\Methodology_finalProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\Methodology_finalProject.dir
+  OBJECT_DIR = CMakeFiles\Project-Capstone.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project-Capstone.dir
 
-build CMakeFiles/Methodology_finalProject.dir/graph.cpp.obj: CXX_COMPILER__Methodology_finalProject_unscanned_Debug C$:/Users/badre/AGH/Methodology$ finalProject/graph.cpp || cmake_object_order_depends_target_Methodology_finalProject
+build CMakeFiles/Project-Capstone.dir/Src/graph.cpp.obj: CXX_COMPILER__Project-Capstone_unscanned_Debug C$:/Users/badre/AGH/Project-Capstone/Src/graph.cpp || cmake_object_order_depends_target_Project-Capstone
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\Methodology_finalProject.dir\graph.cpp.obj.d
+  DEP_FILE = CMakeFiles\Project-Capstone.dir\Src\graph.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem C:/Users/badre/Desktop/SFML-2.6.1/include
-  OBJECT_DIR = CMakeFiles\Methodology_finalProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\Methodology_finalProject.dir
+  OBJECT_DIR = CMakeFiles\Project-Capstone.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project-Capstone.dir\Src
 
-build CMakeFiles/Methodology_finalProject.dir/data_handler.cpp.obj: CXX_COMPILER__Methodology_finalProject_unscanned_Debug C$:/Users/badre/AGH/Methodology$ finalProject/data_handler.cpp || cmake_object_order_depends_target_Methodology_finalProject
+build CMakeFiles/Project-Capstone.dir/Src/data_handler.cpp.obj: CXX_COMPILER__Project-Capstone_unscanned_Debug C$:/Users/badre/AGH/Project-Capstone/Src/data_handler.cpp || cmake_object_order_depends_target_Project-Capstone
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\Methodology_finalProject.dir\data_handler.cpp.obj.d
+  DEP_FILE = CMakeFiles\Project-Capstone.dir\Src\data_handler.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem C:/Users/badre/Desktop/SFML-2.6.1/include
-  OBJECT_DIR = CMakeFiles\Methodology_finalProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\Methodology_finalProject.dir
+  OBJECT_DIR = CMakeFiles\Project-Capstone.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project-Capstone.dir\Src
 
-build CMakeFiles/Methodology_finalProject.dir/simulation.cpp.obj: CXX_COMPILER__Methodology_finalProject_unscanned_Debug C$:/Users/badre/AGH/Methodology$ finalProject/simulation.cpp || cmake_object_order_depends_target_Methodology_finalProject
+build CMakeFiles/Project-Capstone.dir/Src/simulation.cpp.obj: CXX_COMPILER__Project-Capstone_unscanned_Debug C$:/Users/badre/AGH/Project-Capstone/Src/simulation.cpp || cmake_object_order_depends_target_Project-Capstone
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\Methodology_finalProject.dir\simulation.cpp.obj.d
+  DEP_FILE = CMakeFiles\Project-Capstone.dir\Src\simulation.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem C:/Users/badre/Desktop/SFML-2.6.1/include
-  OBJECT_DIR = CMakeFiles\Methodology_finalProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\Methodology_finalProject.dir
+  OBJECT_DIR = CMakeFiles\Project-Capstone.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project-Capstone.dir\Src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Methodology_finalProject
+# Link build statements for EXECUTABLE target Project-Capstone
 
 
 #############################################
-# Link the executable Methodology_finalProject.exe
+# Link the executable Project-Capstone.exe
 
-build Methodology_finalProject.exe: CXX_EXECUTABLE_LINKER__Methodology_finalProject_Debug CMakeFiles/Methodology_finalProject.dir/main.cpp.obj CMakeFiles/Methodology_finalProject.dir/graph.cpp.obj CMakeFiles/Methodology_finalProject.dir/data_handler.cpp.obj CMakeFiles/Methodology_finalProject.dir/simulation.cpp.obj | C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-system-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-window-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-graphics-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-audio-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-network-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-window-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libfreetype.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libopenal32.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbisfile.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbisenc.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbis.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libogg.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libFLAC.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-system-s-d.a
+build Project-Capstone.exe: CXX_EXECUTABLE_LINKER__Project-Capstone_Debug CMakeFiles/Project-Capstone.dir/main.cpp.obj CMakeFiles/Project-Capstone.dir/Src/graph.cpp.obj CMakeFiles/Project-Capstone.dir/Src/data_handler.cpp.obj CMakeFiles/Project-Capstone.dir/Src/simulation.cpp.obj | C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-system-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-window-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-graphics-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-audio-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-network-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-window-s-d.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libfreetype.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libopenal32.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbisfile.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbisenc.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbis.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libogg.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libFLAC.a C$:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-system-s-d.a
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-system-s-d.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-window-s-d.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-graphics-s-d.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-audio-s-d.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-network-s-d.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-window-s-d.a  -lOpenGL32  -lgdi32  C:/Users/badre/Desktop/SFML-2.6.1/lib/libfreetype.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libopenal32.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbisfile.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbisenc.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libvorbis.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libogg.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libFLAC.a  C:/Users/badre/Desktop/SFML-2.6.1/lib/libsfml-system-s-d.a  -lwinmm  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Methodology_finalProject.dir
+  OBJECT_DIR = CMakeFiles\Project-Capstone.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Methodology_finalProject.exe
-  TARGET_IMPLIB = libMethodology_finalProject.dll.a
-  TARGET_PDB = Methodology_finalProject.exe.dbg
+  TARGET_FILE = Project-Capstone.exe
+  TARGET_IMPLIB = libProject-Capstone.dll.a
+  TARGET_PDB = Project-Capstone.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\badre\AGH\Methodology finalProject\cmake-build-debug" && "C:\Program Files (x86)\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\badre\AGH\Project-Capstone\cmake-build-debug && "C:\Program Files (x86)\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -116,7 +116,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D "C:\Users\badre\AGH\Methodology finalProject\cmake-build-debug" && "C:\Program Files (x86)\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\badre\AGH\Methodology finalProject" -B"C:\Users\badre\AGH\Methodology finalProject\cmake-build-debug""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\badre\AGH\Project-Capstone\cmake-build-debug && "C:\Program Files (x86)\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\badre\AGH\Project-Capstone -BC:\Users\badre\AGH\Project-Capstone\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -126,7 +126,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Methodology_finalProject: phony Methodology_finalProject.exe
+build Project-Capstone: phony Project-Capstone.exe
 
 # =============================================================================
 # Folder targets.
@@ -134,9 +134,9 @@ build Methodology_finalProject: phony Methodology_finalProject.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/badre/AGH/Methodology finalProject/cmake-build-debug
+# Folder: C:/Users/badre/AGH/Project-Capstone/cmake-build-debug
 
-build all: phony Methodology_finalProject.exe
+build all: phony Project-Capstone.exe
 
 # =============================================================================
 # Built-in targets
@@ -145,14 +145,14 @@ build all: phony Methodology_finalProject.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/badre/AGH/Methodology$ finalProject/CMakeLists.txt C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfig.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/badre/AGH/Project-Capstone/CMakeLists.txt C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfig.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/badre/AGH/Methodology$ finalProject/CMakeLists.txt C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfig.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files$ (x86)/JetBrains/CLion$ 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/badre/AGH/Project-Capstone/CMakeLists.txt C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfig.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/Users/badre/Desktop/SFML-2.6.1/lib/cmake/SFML/SFMLStaticTargets.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
