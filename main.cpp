@@ -12,7 +12,6 @@ int main() {
     const int ITERATIONS = 50;
     const double MAP_LENGTH = 10.0; // 10km minimum as per requirement
 
-    // SFML Configuration
     const int graphWidth = 300;
     const int graphHeight = 200;
     const int graphSpacing = 50;
@@ -28,18 +27,14 @@ int main() {
             {500, 10}, {500, 20}, {500, 30}, {500, 40}, {500, 50}
     };
 
-    // Data storage for visualization
     std::vector<std::vector<double>> pathLossValuesForGraphs;
 
-    // Initialize CSV files
     std::string avgResultsCsv = "C:\\Users\\badre\\AGH\\Project-Capstone\\Results\\average_results.csv";
     std::string detailedResultsCsv = "C:\\Users\\badre\\AGH\\Project-Capstone\\Results\\detailed_results.csv";
 
-    // Save headers
     saveCSVHeader(avgResultsCsv);
     saveDetailedCSVHeader(detailedResultsCsv);
 
-    // Process each configuration
     for (const auto& config : configurations) {
         double totalAvgPathLoss = 0;
         double totalUnlinkedVehicles = 0;
@@ -65,12 +60,10 @@ int main() {
             avgPathLossesPerIteration.push_back(iterationPathLoss);
         }
 
-        // Calculate final averages
         double finalAvgPathLoss = totalAvgPathLoss / ITERATIONS;
         double finalAvgUnlinkedVehicles = totalUnlinkedVehicles / ITERATIONS;
         double finalAvgUnusedAntennas = totalUnusedAntennas / ITERATIONS;
 
-        // Save averaged results
         saveCSVData(avgResultsCsv, config.first, config.second,
                     finalAvgPathLoss, finalAvgUnlinkedVehicles,
                     finalAvgUnusedAntennas);
