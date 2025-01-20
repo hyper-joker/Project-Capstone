@@ -12,11 +12,10 @@ private:
     int vehicles;
     int antennas;
     double mapLength;
-    const double maxLinkDistance = 0.8; // 0.8 km as per requirement
-    const double vehicleHeight = 1.0;   // 1m as per requirement
-    const double frequency = 1500.0;    // MHz (maximum frequency for urban environment)
+    const double maxLinkDistance = 0.8;
+    const double vehicleHeight = 1.0;
+    const double frequency = 1500.0;
 
-    // Results storage
     double avgPathLoss = 0;
     int unlinkedVehicles = 0;
     int unusedAntennas = 0;
@@ -29,7 +28,6 @@ public:
 
     void runSimulation();
 
-    // Getters
     double getAvgPathLoss() const;
     int getUnlinkedVehicles() const;
     int getUnusedAntennas() const;
